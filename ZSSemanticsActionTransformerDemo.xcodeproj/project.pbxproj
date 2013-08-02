@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA392A7317AB53EF0040CD7B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA392A7217AB53EF0040CD7B /* Foundation.framework */; };
+		AA392A7517AB53EF0040CD7B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA392A7417AB53EF0040CD7B /* CoreGraphics.framework */; };
+		AA392A7717AB53EF0040CD7B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA392A7617AB53EF0040CD7B /* UIKit.framework */; };
+		AA392A7D17AB53EF0040CD7B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA392A7B17AB53EF0040CD7B /* InfoPlist.strings */; };
+		AA392A7F17AB53EF0040CD7B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA392A7E17AB53EF0040CD7B /* main.m */; };
+		AA392A8317AB53EF0040CD7B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA392A8217AB53EF0040CD7B /* AppDelegate.m */; };
+		AA392A8617AB53EF0040CD7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA392A8417AB53EF0040CD7B /* Main.storyboard */; };
+		AA392A8917AB53EF0040CD7B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA392A8817AB53EF0040CD7B /* ViewController.m */; };
+		AA392A8B17AB53EF0040CD7B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA392A8A17AB53EF0040CD7B /* Images.xcassets */; };
+		AA392A9217AB53EF0040CD7B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA392A9117AB53EF0040CD7B /* XCTest.framework */; };
+		AA392A9317AB53EF0040CD7B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA392A7217AB53EF0040CD7B /* Foundation.framework */; };
+		AA392A9417AB53EF0040CD7B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA392A7617AB53EF0040CD7B /* UIKit.framework */; };
+		AA392A9C17AB53EF0040CD7B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA392A9A17AB53EF0040CD7B /* InfoPlist.strings */; };
+		AA392A9E17AB53EF0040CD7B /* ZSSemanticsActionTransformerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA392A9D17AB53EF0040CD7B /* ZSSemanticsActionTransformerDemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA392A9517AB53EF0040CD7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA392A6717AB53EF0040CD7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA392A6E17AB53EF0040CD7B;
+			remoteInfo = ZSSemanticsActionTransformerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA392A6F17AB53EF0040CD7B /* ZSSemanticsActionTransformerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZSSemanticsActionTransformerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA392A7217AB53EF0040CD7B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AA392A7417AB53EF0040CD7B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AA392A7617AB53EF0040CD7B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AA392A7A17AB53EF0040CD7B /* ZSSemanticsActionTransformerDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ZSSemanticsActionTransformerDemo-Info.plist"; sourceTree = "<group>"; };
+		AA392A7C17AB53EF0040CD7B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AA392A7E17AB53EF0040CD7B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA392A8017AB53EF0040CD7B /* ZSSemanticsActionTransformerDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZSSemanticsActionTransformerDemo-Prefix.pch"; sourceTree = "<group>"; };
+		AA392A8117AB53EF0040CD7B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AA392A8217AB53EF0040CD7B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AA392A8517AB53EF0040CD7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA392A8717AB53EF0040CD7B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AA392A8817AB53EF0040CD7B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AA392A8A17AB53EF0040CD7B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AA392A9017AB53EF0040CD7B /* ZSSemanticsActionTransformerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZSSemanticsActionTransformerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA392A9117AB53EF0040CD7B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		AA392A9917AB53EF0040CD7B /* ZSSemanticsActionTransformerDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ZSSemanticsActionTransformerDemoTests-Info.plist"; sourceTree = "<group>"; };
+		AA392A9B17AB53EF0040CD7B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AA392A9D17AB53EF0040CD7B /* ZSSemanticsActionTransformerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZSSemanticsActionTransformerDemoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA392A6C17AB53EF0040CD7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA392A7517AB53EF0040CD7B /* CoreGraphics.framework in Frameworks */,
+				AA392A7717AB53EF0040CD7B /* UIKit.framework in Frameworks */,
+				AA392A7317AB53EF0040CD7B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA392A8D17AB53EF0040CD7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA392A9217AB53EF0040CD7B /* XCTest.framework in Frameworks */,
+				AA392A9417AB53EF0040CD7B /* UIKit.framework in Frameworks */,
+				AA392A9317AB53EF0040CD7B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA392A6617AB53EF0040CD7B = {
+			isa = PBXGroup;
+			children = (
+				AA392A7817AB53EF0040CD7B /* ZSSemanticsActionTransformerDemo */,
+				AA392A9717AB53EF0040CD7B /* ZSSemanticsActionTransformerDemoTests */,
+				AA392A7117AB53EF0040CD7B /* Frameworks */,
+				AA392A7017AB53EF0040CD7B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA392A7017AB53EF0040CD7B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA392A6F17AB53EF0040CD7B /* ZSSemanticsActionTransformerDemo.app */,
+				AA392A9017AB53EF0040CD7B /* ZSSemanticsActionTransformerDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA392A7117AB53EF0040CD7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA392A7217AB53EF0040CD7B /* Foundation.framework */,
+				AA392A7417AB53EF0040CD7B /* CoreGraphics.framework */,
+				AA392A7617AB53EF0040CD7B /* UIKit.framework */,
+				AA392A9117AB53EF0040CD7B /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA392A7817AB53EF0040CD7B /* ZSSemanticsActionTransformerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				AA392A8117AB53EF0040CD7B /* AppDelegate.h */,
+				AA392A8217AB53EF0040CD7B /* AppDelegate.m */,
+				AA392A8417AB53EF0040CD7B /* Main.storyboard */,
+				AA392A8717AB53EF0040CD7B /* ViewController.h */,
+				AA392A8817AB53EF0040CD7B /* ViewController.m */,
+				AA392A8A17AB53EF0040CD7B /* Images.xcassets */,
+				AA392A7917AB53EF0040CD7B /* Supporting Files */,
+			);
+			path = ZSSemanticsActionTransformerDemo;
+			sourceTree = "<group>";
+		};
+		AA392A7917AB53EF0040CD7B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA392A7A17AB53EF0040CD7B /* ZSSemanticsActionTransformerDemo-Info.plist */,
+				AA392A7B17AB53EF0040CD7B /* InfoPlist.strings */,
+				AA392A7E17AB53EF0040CD7B /* main.m */,
+				AA392A8017AB53EF0040CD7B /* ZSSemanticsActionTransformerDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AA392A9717AB53EF0040CD7B /* ZSSemanticsActionTransformerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA392A9D17AB53EF0040CD7B /* ZSSemanticsActionTransformerDemoTests.m */,
+				AA392A9817AB53EF0040CD7B /* Supporting Files */,
+			);
+			path = ZSSemanticsActionTransformerDemoTests;
+			sourceTree = "<group>";
+		};
+		AA392A9817AB53EF0040CD7B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA392A9917AB53EF0040CD7B /* ZSSemanticsActionTransformerDemoTests-Info.plist */,
+				AA392A9A17AB53EF0040CD7B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA392A6E17AB53EF0040CD7B /* ZSSemanticsActionTransformerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA392AA117AB53EF0040CD7B /* Build configuration list for PBXNativeTarget "ZSSemanticsActionTransformerDemo" */;
+			buildPhases = (
+				AA392A6B17AB53EF0040CD7B /* Sources */,
+				AA392A6C17AB53EF0040CD7B /* Frameworks */,
+				AA392A6D17AB53EF0040CD7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZSSemanticsActionTransformerDemo;
+			productName = ZSSemanticsActionTransformerDemo;
+			productReference = AA392A6F17AB53EF0040CD7B /* ZSSemanticsActionTransformerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA392A8F17AB53EF0040CD7B /* ZSSemanticsActionTransformerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA392AA417AB53EF0040CD7B /* Build configuration list for PBXNativeTarget "ZSSemanticsActionTransformerDemoTests" */;
+			buildPhases = (
+				AA392A8C17AB53EF0040CD7B /* Sources */,
+				AA392A8D17AB53EF0040CD7B /* Frameworks */,
+				AA392A8E17AB53EF0040CD7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA392A9617AB53EF0040CD7B /* PBXTargetDependency */,
+			);
+			name = ZSSemanticsActionTransformerDemoTests;
+			productName = ZSSemanticsActionTransformerDemoTests;
+			productReference = AA392A9017AB53EF0040CD7B /* ZSSemanticsActionTransformerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA392A6717AB53EF0040CD7B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = MagicalBits;
+				TargetAttributes = {
+					AA392A8F17AB53EF0040CD7B = {
+						TestTargetID = AA392A6E17AB53EF0040CD7B;
+					};
+				};
+			};
+			buildConfigurationList = AA392A6A17AB53EF0040CD7B /* Build configuration list for PBXProject "ZSSemanticsActionTransformerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA392A6617AB53EF0040CD7B;
+			productRefGroup = AA392A7017AB53EF0040CD7B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA392A6E17AB53EF0040CD7B /* ZSSemanticsActionTransformerDemo */,
+				AA392A8F17AB53EF0040CD7B /* ZSSemanticsActionTransformerDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA392A6D17AB53EF0040CD7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA392A8B17AB53EF0040CD7B /* Images.xcassets in Resources */,
+				AA392A7D17AB53EF0040CD7B /* InfoPlist.strings in Resources */,
+				AA392A8617AB53EF0040CD7B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA392A8E17AB53EF0040CD7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA392A9C17AB53EF0040CD7B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA392A6B17AB53EF0040CD7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA392A8917AB53EF0040CD7B /* ViewController.m in Sources */,
+				AA392A8317AB53EF0040CD7B /* AppDelegate.m in Sources */,
+				AA392A7F17AB53EF0040CD7B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA392A8C17AB53EF0040CD7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA392A9E17AB53EF0040CD7B /* ZSSemanticsActionTransformerDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA392A9617AB53EF0040CD7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA392A6E17AB53EF0040CD7B /* ZSSemanticsActionTransformerDemo */;
+			targetProxy = AA392A9517AB53EF0040CD7B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AA392A7B17AB53EF0040CD7B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA392A7C17AB53EF0040CD7B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AA392A8417AB53EF0040CD7B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA392A8517AB53EF0040CD7B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA392A9A17AB53EF0040CD7B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA392A9B17AB53EF0040CD7B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA392A9F17AB53EF0040CD7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AA392AA017AB53EF0040CD7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA392AA217AB53EF0040CD7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZSSemanticsActionTransformerDemo/ZSSemanticsActionTransformerDemo-Prefix.pch";
+				INFOPLIST_FILE = "ZSSemanticsActionTransformerDemo/ZSSemanticsActionTransformerDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AA392AA317AB53EF0040CD7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZSSemanticsActionTransformerDemo/ZSSemanticsActionTransformerDemo-Prefix.pch";
+				INFOPLIST_FILE = "ZSSemanticsActionTransformerDemo/ZSSemanticsActionTransformerDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		AA392AA517AB53EF0040CD7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ZSSemanticsActionTransformerDemo.app/ZSSemanticsActionTransformerDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZSSemanticsActionTransformerDemo/ZSSemanticsActionTransformerDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ZSSemanticsActionTransformerDemoTests/ZSSemanticsActionTransformerDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		AA392AA617AB53EF0040CD7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ZSSemanticsActionTransformerDemo.app/ZSSemanticsActionTransformerDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZSSemanticsActionTransformerDemo/ZSSemanticsActionTransformerDemo-Prefix.pch";
+				INFOPLIST_FILE = "ZSSemanticsActionTransformerDemoTests/ZSSemanticsActionTransformerDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA392A6A17AB53EF0040CD7B /* Build configuration list for PBXProject "ZSSemanticsActionTransformerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA392A9F17AB53EF0040CD7B /* Debug */,
+				AA392AA017AB53EF0040CD7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA392AA117AB53EF0040CD7B /* Build configuration list for PBXNativeTarget "ZSSemanticsActionTransformerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA392AA217AB53EF0040CD7B /* Debug */,
+				AA392AA317AB53EF0040CD7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AA392AA417AB53EF0040CD7B /* Build configuration list for PBXNativeTarget "ZSSemanticsActionTransformerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA392AA517AB53EF0040CD7B /* Debug */,
+				AA392AA617AB53EF0040CD7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA392A6717AB53EF0040CD7B /* Project object */;
+}
