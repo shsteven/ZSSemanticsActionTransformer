@@ -1,0 +1,10 @@
+PODS:
+  - SemanticsKit (0.1.0)
+
+DEPENDENCIES:
+  - SemanticsKit
+
+SPEC CHECKSUMS:
+  SemanticsKit: 61540348710b6c41c21db20699e12b1af373bc50
+
+COCOAPODS: 0.22.3
